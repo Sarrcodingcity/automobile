@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Client - Location de Véhicules</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h3 style="color: white; font-weight: bold;">Golf <span style="color: orangered;">Automobile</span></h3>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="offers.html">Nos Offres</a></li>
+                <li><a href="form.html">Formulaire Client</a></li>
+                <li><a href="location.html">Simulation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <br><br><br><br>
+        <h1 style="color: orangered;  text-align: center;text-shadow: 4px 4px 7px black; font-weight: bold;">Contactez nous</h1>
+        <form action="#" method="post">
+            <label for="name">Nom et Prénom :</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error">Ce champ est obligatoire.</span>
+<br><br>
+            <label for="civility">Civilité :</label>
+            <select id="civility" name="civility" required>
+                <option value="">Choisir...</option>
+                <option value="Mr">Mr</option>
+                <option value="Mme">Mme</option>
+            </select>
+            <span class="error">Ce champ est obligatoire.</span>
+<br><br>
+            <label for="email">Adresse Email :</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error">Ce champ est obligatoire.</span>
+<br><br>
+            <label for="comment">Commentaire :</label>
+            <textarea id="comment" name="comment" rows="10" cols="81" required></textarea>
+            <span class="error">Ce champ est obligatoire.</span>
+<br><br>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+        <br><br><br><br><br><br><br>
+    </main>
+    <footer>
+        <p>&copy; 2024 Location de Véhicules</p>
+    </footer>
+</body>
+</html>

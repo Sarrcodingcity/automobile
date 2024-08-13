@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 0.1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 25rem;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+nav ul li a {
+    color: orangered;
+    text-decoration: none;
+}
+
+ .bg { 
+    padding: 2rem;
+    background: url('../img/bgcar\ \(1\).jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff; 
+   height: 25rem;
+}
+
+.titre { 
+    text-align: center;
+    margin-top: 8rem;
+    color: #f55a06;
+}
+.present {
+    color: #f7f4f2;
+    text-align: center;
+}
+button{
+   background-color: orangered;
+   color: white;
+   padding: 1rem;
+   border-radius: 12px;
+   border: none;
+ margin-left: 33rem;
+ margin-top: 1rem;
+}
+.section{
+    color:orangered;
+    text-align: center;
+    text-shadow: 4px 4px 7px black;
+    font-weight: bold;
+}
+/* Card Styles */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.card {
+    background-color:rgb(56, 54, 54);
+    color: #333;
+    width: 300px;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-titre{
+    color: orangered;
+    font-weight: bold;
+ }
+ .card-text{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .card:hover{
+    transition: transform 0.3s ease-in;
+    transform: scale(1.05);
+ }
+.card-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 50%;
+}
+.card-container2 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,200px);
+    gap: 10x;
+    padding: 10px;
+   
+   
+}
+
+.card2 {
+    position: relative;
+    margin: 9px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gallery{
+    width: 100%;
+  height: 100%;
+
+}
+.card2:hover{
+    transition: transform 0.3s ease-in;
+    transform: scale(1.05);
+ }
+/*offres*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 1rem;
+    
+}
+
+.gallery-item {
+    background-color: orangered;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item p {
+    color: white;
+    padding: 0.5rem;
+ 
+}
+
+footer {
+    background-color: #333;
+    color:orangered;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Form Styles */
+form {
+    
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f55a06;
+    border-radius: 12px;
+    padding: 3rem;
+}
+
+form label {
+    color:white;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form input[readonly] {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+.btn{
+    background-color: black;
+}
